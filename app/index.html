@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sunset Ledger — GTA VI Trophy Guide &amp; Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="mark">SL</div>
+    <div>
+      <h1>Sunset Ledger</h1>
+      <p class="sub">GTA VI &middot; PlayStation 5 &middot; 55 trophies &middot; every step cited</p>
+    </div>
+  </div>
+  <div class="progress" id="progressBox">
+    <div class="big"><span id="earnedCount">0</span><span class="dim"> / 55 earned</span></div>
+    <div class="bar"><div class="fill" id="progressFill"></div></div>
+    <div class="grades" id="gradeCounts">P 0/1 &nbsp; G 0/2 &nbsp; S 0/6 &nbsp; B 0/46</div>
+    <div class="psn" id="psnPoints">0 / 1,230 PSN points</div>
+  </div>
+  <div class="actions">
+    <label class="shield"><input type="checkbox" id="spoilerToggle" checked> Spoiler shield</label>
+    <button id="exportBtn" type="button">Export</button>
+    <button id="importBtn" type="button">Import</button>
+    <input type="file" id="importFile" accept=".json,application/json" hidden>
+    <div class="saved" id="savedNote">&#10003; Saved in this browser</div>
+  </div>
+</header>
+
+<section class="audit" id="auditStrip" aria-label="Audit"></section>
+
+<nav class="tabs" id="tabs">
+  <button type="button" data-tab="tracker" class="active">Tracker</button>
+  <button type="button" data-tab="roadmap">Roadmap</button>
+  <button type="button" data-tab="missables">Missables</button>
+  <button type="button" data-tab="sources">Sources</button>
+</nav>
+
+<main>
+  <section id="tab-tracker" class="tabpanel">
+    <div class="tracker-grid">
+      <aside class="col-left">
+        <div class="card">
+          <h2>Filters</h2>
+          <div class="chips" id="kindChips"></div>
+          <div class="chips" id="flagChips"></div>
+          <label class="search">Search name, mission or guide
+            <input type="search" id="searchBox" placeholder="e.g. meditation, bank vault, Kenton" autocomplete="off">
+          </label>
+          <label class="sort">Sort
+            <select id="sortBox">
+              <option value="roadmap">Roadmap order</option>
+              <option value="name">Name A–Z</option>
+              <option value="grade">Grade (Platinum first)</option>
+              <option value="chapter">Chapter</option>
+            </select>
+          </label>
+          <div class="shown" id="shownCount"></div>
+        </div>
+        <div class="card">
+          <h2>Next up &middot; roadmap order</h2>
+          <ol class="nextup" id="nextUp"></ol>
+        </div>
+        <div class="card note">
+          <h2>Save discipline</h2>
+          <p>15 manual save slots + 1 autosave. No mission replay, no New Game+. Keep a save at the start and end of each chapter; never enable cheats on your platinum save — cheats disable trophies and saving.</p>
+        </div>
+      </aside>
+      <div class="col-list">
+        <div class="list" id="trophyList"></div>
+      </div>
+      <aside class="col-detail">
+        <div class="card detail" id="detailPanel"></div>
+      </aside>
+    </div>
+  </section>
+
+  <section id="tab-roadmap" class="tabpanel" hidden>
+    <div class="pagehead">
+      <h2>Roadmap to the platinum</h2>
+      <p id="roadmapSummary"></p>
+    </div>
+    <div class="callout" id="hoursCallout"></div>
+    <div class="stages" id="stageCards"></div>
+    <div class="card">
+      <h2>The 100% checklist — trophy target vs checklist target</h2>
+      <p class="muted">From KeenGamer's checklist table, backed by PowerPyx. The trophy and the checklist count different things on purpose — a trophy can pop before the checklist line is done.</p>
+      <table class="checklist" id="checklistTable">
+        <thead><tr><th>Item</th><th>100% checklist asks</th><th>Trophy needs</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h2>Save discipline</h2>
+      <p id="saveNote"></p>
+    </div>
+  </section>
+
+  <section id="tab-missables" class="tabpanel" hidden>
+    <div class="pagehead">
+      <h2>Missable windows — 9 trophies to watch</h2>
+      <p>Built from the official descriptions and the sources below. One trophy is possibly missable; eight more are at risk because their quest chains may have story-progress windows. Everything else can be done after the story in free roam.</p>
+    </div>
+    <div class="missable-hero" id="missableHero"></div>
+    <h3 class="sect">At risk — 8 trophies to watch</h3>
+    <div class="risk-grid" id="riskGrid"></div>
+    <h3 class="sect">Story gates — chapter by chapter</h3>
+    <div class="gates" id="storyGates"></div>
+  </section>
+
+  <section id="tab-sources" class="tabpanel" hidden>
+    <div class="pagehead">
+      <h2>Sources — every page read on the date shown</h2>
+      <p>Every factual claim in this guide cites its sources. Claim counts below are computed from this guide's own data: one claim per cited step. Second-hand mentions are cited through the page that reported them — we never cite a page we did not read.</p>
+    </div>
+    <div class="card">
+      <h2>Per-source claim counts</h2>
+      <table class="sources-table" id="sourceCounts">
+        <thead><tr><th>Source</th><th>Page read</th><th>Depth</th><th>Guides citing</th><th>Claims cited</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <ol class="source-list" id="sourceList"></ol>
+    <div class="card">
+      <h2>Sources differ — 13 disputes, shown both ways</h2>
+      <p class="muted">Where the sources disagree we show both versions and say what we did about it. Nothing is silently picked.</p>
+      <div id="disputeList"></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Sunset Ledger — an unofficial fan-made guide. Grand Theft Auto, GTA and Rockstar Games are trademarks of their owners; this guide uses no Rockstar logo, artwork or game screenshots. All 55 trophy names and descriptions are shown as PlayStation publishes them; every guide is written in our own words and cites its sources. Works fully offline — it loads nothing from the network.</p>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,243 @@
+{
+ "audit": {
+  "atRisk": 8,
+  "backedByTwoPlus": 55,
+  "bronze": 46,
+  "citations": 261,
+  "claimsCited": 189,
+  "difficulty": "4/10",
+  "disputeBoxes": 15,
+  "disputeTopics": 13,
+  "gold": 2,
+  "guidesCiteSources": 55,
+  "hidden": 28,
+  "hours": "~200",
+  "manualSaves": 15,
+  "online": 0,
+  "platinum": 1,
+  "playthroughs": 1,
+  "possiblyMissable": 1,
+  "psnPoints": 1230,
+  "readDate": "21 Nov 2026",
+  "silver": 6,
+  "sites": 6,
+  "sources": 7,
+  "toWatch": 9,
+  "trophies": 55,
+  "unconfirmed": 6,
+  "visible": 27
+ },
+ "disputes": [
+  {
+   "a": "PowerPyx places the final mission in Chapter 4 (Starting From Zero).",
+   "b": "ofzenandcomputing, Insider Gaming, Beebom and CULTR word it as Chapter 5. Push Square and KeenGamer say only 'the final mission'.",
+   "call": "The trophy is for the final mission either way — finish the story and it pops; do not plan around the chapter number.",
+   "id": "D1",
+   "topic": "Which chapter holds the final mission?",
+   "trophies": [
+    "You Gotta Know When to Get Off"
+   ]
+  },
+  {
+   "a": "PowerPyx, KeenGamer and GTABase say roughly 200 hours.",
+   "b": "Push Square's intro says 'up to 300 hours or more'.",
+   "call": "Plan 200 hours for the checklist route; budget 200–300 if you play at a relaxed pace.",
+   "id": "D2",
+   "topic": "How long to the platinum?",
+   "trophies": []
+  },
+  {
+   "a": "PowerPyx and KeenGamer say 60–80 hours.",
+   "b": "ofzenandcomputing says 50–60 hours.",
+   "call": "Plan 60–80 hours for the story; the difference is pacing, not content.",
+   "id": "D3",
+   "topic": "How long is the story?",
+   "trophies": []
+  },
+  {
+   "a": "PowerPyx, KeenGamer and GTABase flag Positive Mental Attitude as the one possibly missable trophy.",
+   "b": "ofzenandcomputing notes community discussion suggesting no trophy is missable, but calls that unconfirmed.",
+   "call": "Do the Chapter 1 balcony meditation; it costs a minute and removes the risk either way.",
+   "id": "D4",
+   "topic": "Is anything missable at all?",
+   "trophies": [
+    "Positive Mental Attitude"
+   ]
+  },
+  {
+   "a": "Push Square lists it as Bronze.",
+   "b": "The official list, KeenGamer and ofzenandcomputing all say Silver.",
+   "call": "We follow the official list — Silver.",
+   "id": "D5",
+   "topic": "What grade is Maximum Withdrawal?",
+   "trophies": [
+    "Maximum Withdrawal"
+   ]
+  },
+  {
+   "a": "PowerPyx says all five character questlines stay available after the story.",
+   "b": "TechWiser (reported by eGamers) says the stranger chains behind five hidden trophies have windows linked to story progress. Only one source gives that warning.",
+   "call": "Start each chain the moment it unlocks and keep a chapter-end save; do not leave them to post-story cleanup.",
+   "id": "D6",
+   "topic": "Do the stranger chains have story-progress windows?",
+   "trophies": [
+    "Road to Rehabilitation",
+    "This Was No Boat Accident",
+    "The Lone Rider",
+    "Supply & Demand",
+    "Spin On This!"
+   ]
+  },
+  {
+   "a": "PowerPyx describes Bret's chain (hunt the animals he requests; 15 Target Decks) and says it is still being confirmed which animal exactly unlocks the trophy.",
+   "b": "KeenGamer and eGamers list the trophy as unconfirmed, and eGamers adds that it is unknown which animal Fair Game asks for.",
+   "call": "Work Bret's whole chain — the 15 Target Decks are needed for 100% anyway.",
+   "id": "D7",
+   "topic": "Which animal unlocks Fair Game?",
+   "trophies": [
+    "Fair Game"
+   ]
+  },
+  {
+   "a": "PowerPyx gives a specific method: after Chapter 3's Credit Check, return to the Payday Loans store in Little Cuba as Lucia alone, rob the 3 cash drawers and escape on foot.",
+   "b": "KeenGamer lists it as a hidden trophy with an unconfirmed unlock method, and eGamers lists it as unconfirmed.",
+   "call": "Follow PowerPyx's method, but treat it as unconfirmed until a second source confirms it.",
+   "id": "D8",
+   "topic": "Bad Luck, I Guess — what is the method?",
+   "trophies": [
+    "Bad Luck, I Guess"
+   ]
+  },
+  {
+   "a": "PowerPyx gives a specific method: a UFO easter egg on the road north-west of Starlet Motel in Kelly County, at night after 2AM, solo, with a random spawn.",
+   "b": "KeenGamer lists it as a hidden trophy with an unconfirmed unlock method, and eGamers lists it as unconfirmed — though eGamers notes GTABase thinks it refers to a strange event somewhere in Leonida.",
+   "call": "Follow PowerPyx's method, but treat it as unconfirmed until a second source confirms it.",
+   "id": "D9",
+   "topic": "The Truth Is Out There — what is the method?",
+   "trophies": [
+    "The Truth Is Out There"
+   ]
+  },
+  {
+   "a": "PowerPyx gives a specific method: go to the Ocean View Rooftop Bar, buy an Apple Martini and drink it standing next to the bar.",
+   "b": "KeenGamer says the exact trigger is still being confirmed, and eGamers lists the steps as unconfirmed.",
+   "call": "Follow PowerPyx's method, but treat it as unconfirmed until a second source confirms it.",
+   "id": "D10",
+   "topic": "In The Beginning… — what exactly triggers it?",
+   "trophies": [
+    "In The Beginning…"
+   ]
+  },
+  {
+   "a": "PowerPyx gives a specific method: steal the blue Banshee from the showroom in south Vice City (needs the Key Cloner from Chapter 3) and drive it through the window.",
+   "b": "KeenGamer says the exact method is still unconfirmed, and eGamers lists the steps as unconfirmed — though eGamers notes GTABase agrees it involves crashing a car out through a showroom window.",
+   "call": "Follow PowerPyx's method; the showroom-window part has a second source behind it.",
+   "id": "D11",
+   "topic": "Capital Offense — which car, and does it work?",
+   "trophies": [
+    "Capital Offense"
+   ]
+  },
+  {
+   "a": "PowerPyx gives a specific method: ride any bike and kick 10 pedestrians with Square within 60 seconds.",
+   "b": "KeenGamer says the precise method is still being confirmed, and eGamers lists the steps as unconfirmed.",
+   "call": "Follow PowerPyx's method, but treat it as unconfirmed until a second source confirms it.",
+   "id": "D12",
+   "topic": "Ten Pin — what is the method?",
+   "trophies": [
+    "Ten Pin"
+   ]
+  },
+  {
+   "a": "PowerPyx's sub-guide title says 12 shooting range locations.",
+   "b": "Push Square names 2 ranges in Leonida — Rodgers Ranch & Shooting Range (Port Gellhorn) and Griffin Shooting Range (Balsero) — with 42 challenges across three difficulty tiers.",
+   "call": "The trophy tracks the 42 gold medals either way; the ranges are the two Push Square names.",
+   "id": "D13",
+   "topic": "How many shooting ranges are there?",
+   "trophies": [
+    "The Shootist"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "claims": 1,
+   "covers": "The official name, description and grade of all 55 trophies. The kit notes the list as Exophase and PSNProfiles listed it before the bounty opened, the two agreeing on every name, description and grade. Hidden flags are not in the kit file — they are cross-checked against [4] and [6], whose tables agree exactly.",
+   "depth": "Full list as shipped in the kit",
+   "guides": 1,
+   "n": 1,
+   "read": "2026-11-21",
+   "site": "Official list (bounty kit)",
+   "title": "GTA VI PlayStation 5 trophy list",
+   "url": "https://make.fun/bounty/gta6-trophy-guide-01"
+  },
+  {
+   "claims": 160,
+   "covers": "Roadmap (4/10 difficulty, ~200 hours, 1 playthrough, 0 online, 1 possibly missable, 0 glitched, 15 manual saves), story chapters and missions, per-trophy methods for all 55, 100% checklist thresholds, collectible counts, and the Chapter 1 balcony meditation warning.",
+   "depth": "Full page read",
+   "guides": 55,
+   "n": 2,
+   "read": "2026-11-21",
+   "site": "PowerPyx",
+   "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap",
+   "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+  },
+  {
+   "claims": 27,
+   "covers": "Roadmap (4/10, 200 hours, 1 playthrough, 1 possibly missable), the full 100% checklist table (robberies, collectibles, activities), the 55-trophy table with grades, and the unconfirmed flags on five hidden trophies.",
+   "depth": "Full page read",
+   "guides": 21,
+   "n": 3,
+   "read": "2026-11-21",
+   "site": "KeenGamer",
+   "title": "GTA 6 Trophy Guide & Platinum Roadmap – All 55 Trophies",
+   "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+  },
+  {
+   "claims": 2,
+   "covers": "The hidden-trophy table: 27 visible and 28 hidden, with the grade split (Platinum 1/0, Gold 1/1, Silver 6/0, Bronze 19/27). Its hidden list agrees exactly with [6]. Also: story length 50–60 hours, and the final mission listed as Chapter 5.",
+   "depth": "Full page read",
+   "guides": 2,
+   "hiddenFlags": 28,
+   "n": 4,
+   "read": "2026-11-21",
+   "site": "ofzenandcomputing",
+   "title": "GTA 6 Trophy List (November 2026) All 55 Trophies",
+   "url": "https://www.ofzenandcomputing.com/gta-6-trophy-list-trophies-achievements/"
+  },
+  {
+   "claims": 41,
+   "covers": "All 55 trophies with official descriptions; stunt breakdown (397 total); two shooting ranges with 42 challenges; 14 Top Fun locations; 18 card sets; meditation zen-animation rule; the 8 garage prices totalling $160,000; and the intro estimate 'up to 300 hours or more'.",
+   "depth": "Full page read",
+   "guides": 27,
+   "n": 5,
+   "read": "2026-11-21",
+   "site": "Push Square",
+   "title": "GTA 6: Trophy Guide & Roadmap (WIP)",
+   "url": "https://www.pushsquare.com/guides/gta-6-trophy-guide-and-roadmap/"
+  },
+  {
+   "claims": 1,
+   "covers": "The hidden-trophy table: 28 hidden, 27 visible, with the same 28 names as [4] — an independent second source for every hidden flag. Also lists the final mission as Chapter 5.",
+   "depth": "Full page read",
+   "guides": 1,
+   "hiddenFlags": 28,
+   "n": 6,
+   "read": "2026-11-21",
+   "site": "Insider Gaming",
+   "title": "Complete GTA 6 Trophy List — How To Get All Trophies & Achievements",
+   "url": "https://insider-gaming.com/complete-gta-6-trophy-list-how-to-get-all-trophies-achievements/"
+  },
+  {
+   "claims": 29,
+   "covers": "Grade split (27 visible / 28 hidden); the five still-unconfirmed trophies plus Fair Game's unknown animal; the TechWiser warning that stranger chains behind five hidden trophies have story-progress windows; the final-mission wording dispute (Beebom and CULTR say Chapter 5); GTABase cross-checks; the trophy-vs-checklist comparison table.",
+   "depth": "Full page read",
+   "guides": 24,
+   "n": 7,
+   "read": "2026-11-21",
+   "site": "eGamers",
+   "title": "GTA 6 Trophy List: All 55 Trophies And Achievements, Plus The Hardest Ones",
+   "url": "https://egamers.io/gta-6-trophy-list-all-55-trophies-and-achievements-plus-the-hardest-ones/"
+  }
+ ]
+}
